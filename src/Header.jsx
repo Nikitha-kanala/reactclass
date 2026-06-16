@@ -8,7 +8,7 @@ function Header({setsearchquery}) {
   return (
     <>
      <header style={{display:"flex",justifyContent:"space-evenly"}}   >
-    <img  class='animate-bounce'     height={30} width={100}      src="https://zerodha.com/static/images/logo.svg" alt="logo" />
+    <img  class='animate-bounce'     height={30} width={100}      src="https://t3.ftcdn.net/jpg/02/98/18/60/360_F_298186090_Rimyxol4jsYvYbQg1i6sttQ5N3oebXgt.jpg" alt="logo" />
 
     <input  onChange={(e)=>{setsearchquery(e.target.value)}}  type="text" placeholder="search products..." />
 
